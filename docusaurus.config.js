@@ -52,7 +52,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "fe-intro",
             position: "left",
             label: "前端",
           },
@@ -71,8 +71,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "前端",
+                to: "/docs/fe-intro",
               },
             ],
           },
