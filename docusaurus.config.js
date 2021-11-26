@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "jzhmcoo1",
+  tagline: "👨🏻‍💻好好学习，天天敲代码👩🏻‍💻",
+  url: "https://blog.lihangzhu.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "jzhmcoo1", // Usually your GitHub org/user name.
+  projectName: "personal-docs-and-blog", // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,14 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl:
+            "https://github.com/jzhmcoo1/personal-docs-and-blog/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+            "https://github.com/jzhmcoo1/personal-docs-and-blog/edit/main/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -43,23 +44,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "jzhmcoo1",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/avatar.jpeg",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "前端",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "博客", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://github.com/jzhmcoo1/personal-docs-and-blog",
             position: "right",
+            className: "header-github-link",
           },
         ],
       },
@@ -93,7 +94,24 @@ const config = {
             ],
           },
           {
-            title: "More",
+            title: "联系我",
+            items: [
+              {
+                label: "Github",
+                href: "https://github.com/jzhmcoo1",
+              },
+              {
+                label: "Gitee",
+                href: "https://gitee.com/jzhmcoo1",
+              },
+              {
+                label: "掘金",
+                href: "https://juejin.cn/user/2964702570488312",
+              },
+            ],
+          },
+          {
+            title: "友情链接",
             items: [
               {
                 label: "Blog",
@@ -103,14 +121,29 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/facebook/docusaurus",
               },
+              {
+                label: "Docusaurus",
+                href: "https://github.com/facebook/docusaurus",
+              },
+              {
+                label: "Vercel",
+                href: "https://vercel.com/",
+              },
+              {
+                label: "Slidev",
+                href: "https://sli.dev/",
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} jzhmcoo1. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
     }),
 };
