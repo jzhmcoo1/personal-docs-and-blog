@@ -70,76 +70,77 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "前端",
-                to: "/docs/fe-intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "联系我",
-            items: [
-              {
-                label: "Github",
-                href: "https://github.com/jzhmcoo1",
-              },
-              {
-                label: "Gitee",
-                href: "https://gitee.com/jzhmcoo1",
-              },
-              {
-                label: "掘金",
-                href: "https://juejin.cn/user/2964702570488312",
-              },
-            ],
-          },
-          {
-            title: "友情链接",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-              {
-                label: "Docusaurus",
-                href: "https://github.com/facebook/docusaurus",
-              },
-              {
-                label: "Vercel",
-                href: "https://vercel.com/",
-              },
-              {
-                label: "Slidev",
-                href: "https://sli.dev/",
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+
+        //     title: "Docs",
+        //     items: [
+        //       {
+        //         label: "前端",
+        //         to: "/docs/fe-intro",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "Community",
+        //     items: [
+        //       {
+        //         label: "Stack Overflow",
+        //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
+        //       },
+        //       {
+        //         label: "Discord",
+        //         href: "https://discordapp.com/invite/docusaurus",
+        //       },
+        //       {
+        //         label: "Twitter",
+        //         href: "https://twitter.com/docusaurus",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "联系我",
+        //     items: [
+        //       {
+        //         label: "Github",
+        //         href: "https://github.com/jzhmcoo1",
+        //       },
+        //       {
+        //         label: "Gitee",
+        //         href: "https://gitee.com/jzhmcoo1",
+        //       },
+        //       {
+        //         label: "掘金",
+        //         href: "https://juejin.cn/user/2964702570488312",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "友情链接",
+        //     items: [
+        //       {
+        //         label: "Blog",
+        //         to: "/blog",
+        //       },
+        //       {
+        //         label: "GitHub",
+        //         href: "https://github.com/facebook/docusaurus",
+        //       },
+        //       {
+        //         label: "Docusaurus",
+        //         href: "https://github.com/facebook/docusaurus",
+        //       },
+        //       {
+        //         label: "Vercel",
+        //         href: "https://vercel.com/",
+        //       },
+        //       {
+        //         label: "Slidev",
+        //         href: "https://sli.dev/",
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} jzhmcoo1. Built with Docusaurus.`,
       },
       prism: {
